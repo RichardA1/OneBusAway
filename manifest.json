@@ -1,0 +1,8 @@
+{
+    "domain": "onebusaway",
+    "name": "OneBusAway Sensor",
+    "documentation": "https://github.com/Spacetech/home-assistant-config",
+    "dependencies": [],
+    "codeowners": ["Spacetech"],
+    "requirements": []
+}
