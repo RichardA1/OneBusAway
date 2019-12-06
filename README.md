@@ -24,3 +24,10 @@ sensor:
       api_key: !secret onebusaway_api_key
       id: "1_701"
 ```
+
+Things to add:
+
+- Minutes to next bus
+- Next 3 busses
+- GPS cowordinates for the bus
+
