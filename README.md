@@ -9,7 +9,7 @@ Find your stop id here: http://pugetsound.onebusaway.org/where/standard
 minutes_after - include vehicles arriving or departing in the next n minutes
 
 Example configs:
-
+<addr>
 sensor:
     # for http://pugetsound.onebusaway.org/where/standard/stop.action?id=1_700&route=40_100236
     - platform: onebusaway
@@ -20,7 +20,7 @@ sensor:
         - id: "40_100236"
           name: 545E
       minutes_after: 60
-
+</addr>
 or 
     - platform: onebusaway
       api_key: !secret onebusaway_api_key
